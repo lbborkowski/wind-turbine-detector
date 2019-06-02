@@ -1,5 +1,4 @@
 # wind-turbine-detector
+Google Colab notebook to detect wind turbines from aerial images
 
-![alt text](https://github.com/lbborkowski/wind-turbine-detector/blob/master/WindTurbineDetectorFigure_2.tif)
-
-![Alt text](https://github.com/lbborkowski/wind-turbine-detector/blob/master/WindTurbineDetectorFigure_2.tif?raw=true "test")
+![](WindTurbineDetectorFigure_5.png)
