@@ -7,5 +7,4 @@ Launch the notebook in Google Colab by clicking on this badge: [![Open In Colab]
 > *Note: After launching the notebook, verify that "Python2" and "GPU" are selected for the "Runtime type" and "Hardware accelerator" in Runtime -> Change runtime type.*
 
 ![](WindTurbineDetectorFigure_5.png)
-
-*Original aerial images obtained from [National Agriculture Imagery Program (NAIP) database](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)*
+> *Note: Original aerial images obtained from [National Agriculture Imagery Program (NAIP) database](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)*
