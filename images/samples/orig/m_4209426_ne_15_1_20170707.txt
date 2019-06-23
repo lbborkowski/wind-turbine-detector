@@ -1,0 +1,378 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: USDA-FSA-APFO Aerial Photography Field Office
+        Publication_Date: 20171120
+        Title: NAIP Digital Ortho Photo Image
+        Geospatial_Data_Presentation_Form: remote-sensing image
+        Publication_Information:
+          Publication_Place: Salt Lake City, Utah
+          Publisher:  USDA-FSA-APFO Aerial Photography Field Office
+    Description:
+      Abstract:
+        This data set contains imagery from the National Agriculture
+        Imagery Program (NAIP).  The NAIP program is administered by
+        USDA FSA and has been established to support two main FSA
+        strategic goals centered on agricultural production.
+        These are, increase stewardship of America's natural resources
+        while enhancing the environment, and to ensure commodities
+        are procured and distributed effectively and efficiently to
+        increase food security.  The NAIP program supports these goals by
+        acquiring and providing ortho imagery that has been collected
+        during the agricultural growing season in the U.S. The NAIP
+        ortho imagery is tailored to meet FSA requirements and is a
+        fundamental tool used to support FSA farm and conservation
+        programs.  Ortho imagery provides an effective, intuitive
+        means of communication about farm program administration
+        between FSA and stakeholders.  
+        New technology and innovation is identified by fostering and
+        maintaining a relationship with vendors and government
+        partners, and by keeping pace with the broader geospatial
+        community.  As a result of these efforts the NAIP program
+        provides three main products: DOQQ tiles,
+        Compressed County Mosaics (CCM), and Seamline shape files
+        The Contract specifications for NAIP imagery have changed
+        over time reflecting agency requirements and improving
+        technologies.  These changes include image resolution,
+        horizontal accuracy, coverage area, and number of bands.
+        In general, flying seasons are established by FSA and are
+        targeted for peak crop growing conditions.  The NAIP
+        acquisition cycle is based on a minimum 3 year refresh of base
+        ortho imagery.  The tiling format of the NAIP imagery is based
+        on a 3.75' x 3.75' quarter quadrangle with a 300 pixel buffer
+        on all four sides.  NAIP quarter quads are formatted to the UTM
+        coordinate system using the North American Datum of 1983.
+        NAIP imagery may contain as much as 10% cloud cover per tile.
+      Purpose:
+        NAIP imagery is available for distribution within 60 days
+        of the end of a flying season and is intended to provide current
+        information of agricultural conditions in support of USDA farm
+        programs. For USDA Farm Service Agency, the 1 meter and 1/2 meter
+        GSD product provides an ortho image base for Common Land Unit
+        boundaries and other data sets.  The 1 meter and 1/2 meter NAIP
+        imagery is generally acquired in projects covering full states in
+        cooperation with state government and other federal agencies that
+        use the imagery for a variety of purposes including land use
+        planning and natural resource assessment.  The NAIP is also used 
+        for disaster response.  While suitable for a variety of uses,
+        prior to 2007 the 2 meter GSD NAIP imagery was primarily intended
+        to assess "crop condition and compliance" to USDA farm program
+        conditions. The 2 meter imagery was generally acquired only
+        for agricultural areas within state projects.
+    Time_Period_of_Content:
+      Time_Period_Information:
+           Single_Date/Time:
+             Calendar_Date: 20170707
+      Currentness_Reference: Ground Condition
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: Irregular
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate:  -94.8125
+        East_Bounding_Coordinate:  -94.7500
+        North_Bounding_Coordinate:  42.6250
+        South_Bounding_Coordinate:  42.5625
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: farming
+        Theme_Keyword: Digital Ortho rectified Image
+        Theme_Keyword: Ortho Rectification
+        Theme_Keyword: Quarter Quadrangle
+        Theme_Keyword: NAIP
+        Theme_Keyword: Aerial Compliance
+        Theme_Keyword: Compliance
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: IA
+        Place_Keyword: Pocahontas
+        Place_Keyword: 19151
+        Place_Keyword: IA151
+        Place_Keyword: POCAHONTAS CO IA FSA
+        Place_Keyword: 4209426
+        Place_Keyword: FONDA, NE
+        Place_Keyword: FONDA
+    Access_Constraints: There are no limitations for access.
+    Use_Constraints:
+      None.  The USDA-FSA Aerial Photography Field office
+      asks to be credited in derived products.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Aerial Photography Field Office (APFO)
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: 2222 West 2300 South
+          City: Salt Lake City
+          State_or_Province: Utah
+          Postal_Code: 84119-2020
+          Country: USA
+        Contact_Voice_Telephone: 801-844-2922
+        Contact_Facsimile_Telephone: 801-956-3653
+        Contact_Electronic_Mail_Address: apfo.sales@slc.usda.gov
+    Browse_Graphic:
+      Browse_Graphic_File_Name: None
+      Browse_Graphic_File_Description: None
+      Browse_Graphic_File_Type: None
+    Native_Data_Set_Environment: Unknown
+  Data_Quality_Information:
+    Logical_Consistency_Report:
+      NAIP 3.75 minute tile file names are based
+      on the USGS quadrangle naming convention.
+    Completeness_Report: None
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report:
+          NAIP horizontal accuracy specifications have evolved over
+          the life of the program.  From 2003 to 2004 the
+          specifications were as follows: 1-meter GSD imagery was
+          to match within 3-meters, and 2-meter GSD to match within 10
+          meters of reference imagery.  For 2005 the 1-meter GSD
+          specification was changed to 5 meters matching the reference
+          imagery.  In 2006 a pilot project was performed using true
+          ground specifications rather than reference imagery.  All
+          states used the same specifications as 2005 except Utah,
+          which required a match of +/- 6 meters to true ground.
+          In 2007 all specifications were the same as 2006 except
+          Arizona used true ground specifications and all other states
+          used reference imagery.  In 2008 and subsequent years
+          no 2-meter GSD imagery was acquired and all specifications
+          were the same as 2007 except approximately half of the
+          states acquired used true ground specifications and the
+          other half used reference imagery.  The 2008 states that
+          used absolute ground control where; Indiana, Minnesota,
+          New Hampshire, North Carolina, Texas, Vermont, and Virginia.
+          From 2009 to present all NAIP imagery acquisitions used
+          the +/- 6 meters to ground specification.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: USDA-FSA-APFO Aerial Photography Field Office
+            Publication_Date: 20171120
+            Title: FONDA, NE
+            Geospatial_Data_Presentation_Form: remote-sensing image
+        Type_of_Source_Media: UnKnown
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 20170707
+          Source_Currentness_Reference:
+            Aerial Photography Date for aerial photo source.
+        Source_Citation_Abbreviation: Georectifed Image
+        Source_Contribution: Digital Georectifed Image.
+
+      Process_Step:
+        Process_Description:
+          Flight planning was performed in Leica MissionPro over a 
+          buffered boundary covering DOQQ extents provided by the 
+          USDA. A 500m reduced resolution DEM file was used to 
+          determine ground heights. A targeted flight altitude of 
+          approximately 16,000 feet above ground level for 
+          acquisition with sidelap of 27% was used for flight 
+          planning parameters. Five Cessna Conquests and a Cessna 
+          414 were utilized for acquisition, the seamline 
+          shapefile clarifies which aircraft were used for a given 
+          area. All aircraft were equipped with Leica ADS100 
+          systems for data capture. The Leica ADS100 pushbroom 
+          sensor has been calibrated by the manufacturer as well 
+          as validated against a local calibration range.  
+          The calibration includes measuring the radiometric and 
+          geometric properties of the camera.  These data are 
+          used in the Post Processing Software 
+          to eliminate the radiometric and geometric distortion.     
+          All aerial imagery was collected with associated GPS/IMU  
+          data.  ADS collection requires high quality IMU data for 
+          processing and was critical for early access hosting of 
+          digital data to the web for USDA interim access and 
+          review. After post processing was complete, all 
+          imagery was triangulated using Leica XPro in which 
+          the airborne GPS data was constrained to expected limits.  
+          To validate the accuracy of the block adjustment derived 
+          from GPS/IMU, sensor parameters and conjugate point 
+          measurements, photo identifiable ground control points 
+          were field surveyed within each State.  These points were 
+          surveyed using GPS techniques to produce coordinates 
+          that are accurate to +/- 0.25 meters RMSE in XYZ.  
+          The GPS surveying techniques utilized assured that the 
+          coordinates are derived in the required project datum 
+          and relative to an approved 
+          National Reference System.  If the block does not fit the 
+          control points within specifications the pass and tie 
+          points were reviewed for blunders and weak areas.  If, 
+          after these corrections were made, the block still 
+          does not fit the control well the GPS and IMU processing 
+          were reviewed.  Once the block has proper statistics and 
+          fits the control to specifications, the final bundle 
+          adjustment was made.  As AT points are frequently on 
+          man-made and other vertical features not included in 
+          the DEM, these ortho points can only be used to 
+          indicate regions of error by the clusters of points 
+          that predict excessive horizontal displacement.  
+          The final adjustments assure a high quality relative 
+          adjustment and a high quality absolute adjustment 
+          limited to the airborne GPS data accuracy. This process 
+          assures the final absolute accuracy of all geopositioned 
+          imagery.  Both signalized and photo identified 
+          ground control were used to QC and control the IMU/GPS 
+          based aerial triangulation bundle block solution. Surdex 
+          Grouping Tool provides real-time updates 
+          of the USDA APFO Image Metrics.  The image technician 
+          adjusts image correction parameters to bring the 
+          radiometric characteristics of large groups of images 
+          within the Image Metrics ranges. For each 
+          project area the highest resolution DEM or LiDAR was
+          obtained and utilized for rectification of captured 
+          imagery. A visual inspection of the final DEM using 
+          color cycled classification by elevation and a shaded 
+          relief was performed to check for gaps, corruption 
+          and gross errors.  The predicted horizontal error for 
+          each point was added as an attribute in the SURDEX 
+          enterprise database.  An operator reviews ortho seams 
+          in areas these predicted errors indicate horizontal 
+          error in excess of the contract specifications.  
+          Any imagery errors introduced by source DEM required 
+          patching from an alternate perspective or strip of 
+          photography.  Processing hardware used included various 
+          brands of survey grade GPS receivers, various brands 
+          and models of computers, calibrated monitors and 
+          various brands of monitor calibration colorimeters. 
+          Leica XPro was used for post 
+          processing of ADS pushbroom data, triangulation and 
+          orthorectification.  SURDEX software was used to color 
+          correct and remove bidirectional reflectance, 
+          vignetting and other illumination trends.  
+          USDA APFO Image Metrics are measured and 
+          images corrected to conform to the Image Metrics using 
+          SURDEX software.  GPS/IMU data was reduced to projected 
+          coordinates in the appropriate UTM zone using 
+          Inertial Explorer software from Novatel. Aerial 
+          Triangulation and orthorectification was performed 
+          using Leica XPro. SURDEX software was used to 
+          adjust for minor radiometric variation between adjacent 
+          images.  SURDEX software was used to calculate the 
+          optimal seam path, check seam topology and 
+          create master tiles.  SURDEX ortho software generates 
+          occlusion/smear polygons used during seam review 
+          of steep terrain.  SURDEX software was used to 
+          visually inspect master tiles for seam and image 
+          defects.  SURDEX software was used to project and 
+          cut final DOQQ image files from masters.  
+          SURDEX software was used to create CCM 
+          metadata.  Lizardtech GeoExpress version 9.1.0.3981 
+          was used to create the CCM image file.  SURDEX software 
+          was used to perform final formatting, QC and naming 
+          of the DOQQ. USGS metadata parser software was used 
+          to validate the metadata. 
+          Various versions of Microsoft Windows were used in all 
+          phases of production. Grouping Tool was used again 
+          after DOQQ and CCM production to provide a 
+          quality assurance check. Individual DOQQ and CCM may 
+          not meet the USDA APFO Image Metrics ranges 
+          due to land cover.  The goal is to have the state as a 
+          whole meet the Image Metrics. All products are reviewed 
+          by independent personnel prior to delivery.  
+          The delivery is checked for omissions, commissions, 
+          naming, formatting, specification compliance and data integrity
+        Process_Date: 20171120
+  Spatial_Data_Organization_Information:
+    Indirect_Spatial_Reference: Pocahontas County, IA
+    Direct_Spatial_Reference_Method: Raster
+    Raster_Object_Information:
+      Raster_Object_Type: Pixel
+      Row_Count: 1
+      Column_Count: 1
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Planar:
+        Grid_Coordinate_System:
+          Grid_Coordinate_System_Name: Universal Transverse Mercator
+          Universal_Transverse_Mercator:
+            UTM_Zone_Number: 15
+            Transverse_Mercator:
+              Scale_Factor_at_Central_Meridian: 0.9996
+              Longitude_of_Central_Meridian: -93.0
+              Latitude_of_Projection_Origin: 0.0
+              False_Easting: 500000
+              False_Northing: 0.0
+        Planar_Coordinate_Information:
+          Planar_Coordinate_Encoding_Method: row and column
+          Coordinate_Representation:
+            Abscissa_Resolution: 1
+            Ordinate_Resolution: 1
+          Planar_Distance_Units: meters
+      Geodetic_Model:
+        Horizontal_Datum_Name: North American Datum of 1983
+        Ellipsoid_Name: Geodetic Reference System 80 (GRS 80)
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257
+  Entity_and_Attribute_Information:
+    Overview_Description:
+      Entity_and_Attribute_Overview:
+        32-bit pixels, 4 band color(RGBIR) values 0 - 255
+      Entity_and_Attribute_Detail_Citation: None
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Supervisor Customer Services Section
+          Contact_Organization:
+            USDA-FSA-APFO Aerial Photography Field Office
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: 2222 West 2300 South
+          City: Salt Lake City
+          State_or_Province: Utah
+          Postal_Code: 84119-2020
+          Country: USA
+        Contact_Voice_Telephone: 801-844-2922
+        Contact_Facsimile_Telephone: 801-956-3653
+        Contact_Electronic_Mail_Address: apfo.sales@slc.usda.gov
+    Distribution_Liability:
+      In no event shall the creators, custodians, or distributors
+      of this information be liable for any damages arising out
+      of its use (or the inability to use it).
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: GeoTIFF - Georeferenced Tagged Image File Format
+          Format_Information_Content: Multispectral 4-band
+        Digital_Transfer_Option:
+          Offline_Option:
+            Offline_Media: CD-ROM
+            Recording_Format: ISO 9660 Mode 1 Level 2 Extensions
+          Offline_Option:
+            Offline_Media: DVD-R
+            Recording_Format: ISO 9660
+          Offline_Option:
+            Offline_Media: USB Hard Disk
+            Recording_Format: NTFS
+          Offline_Option:
+            Offline_Media: FireWire Hard Disk
+            Recording_Format: NTFS
+      Fees:
+        Contact the Aerial Photography Field Office
+        for more information
+    Resource_Description:
+      m_4209426_ne_15_1_20170707_20171026.tif
+  Metadata_Reference_Information:
+    Metadata_Date: 20171120
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization:
+            USDA-FSA-APFO Aerial Photography Field Office
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: 2222 West 2300 South
+          City: Salt Lake City
+          State_or_Province: Utah
+          Postal_Code: 84119-2020
+          Country: USA
+        Contact_Voice_Telephone: 801-844-2922
+    Metadata_Standard_Name:
+      Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+
