@@ -11,7 +11,8 @@ Training was performed on labeled 300 x 300 pixel images that were chipped from 
 ![](/READMEimages/train_01.png) ![](/READMEimages/train_02.png) ![](/READMEimages/train_03.png) ![](/READMEimages/train_04.png) ![](/READMEimages/train_05.png) ![](/READMEimages/train_06.png)
 
 ## Validation
-A set of validation images was kept separate from the train and test sets in order to validate the model. A total of 16 images were used for validation. Due to random data/image augmentation performed during training, the validation results can vary between training runs. However, I've found that at least 15 of the 17 wind turbines in the validation image set are detected with high probability. I have experienced 100% accuracy (all wind turbines detected correctly) however due to the randomness in training, each trained model will likely provide slightly different results. A few results from the validation step are shown below.
+A set of validation images was kept separate from the train and test sets in order to validate the model. A total of 16 images were used for validation. Due to random data/image augmentation performed during training, the validation results can vary between training runs. However, I've found that at least 15 of the 17 wind turbines in the validation image set are detected with high probability. I have experienced 100% accuracy (all wind turbines detected correctly) however due to the randomness in training, each trained model will likely provide slightly different results. A few results from the validation step are shown below.  
+
 ![](/READMEimages/valid_01.png) ![](/READMEimages/valid_02.png) ![](/READMEimages/valid_03.png) ![](/READMEimages/valid_04.png) ![](/READMEimages/valid_05.png) ![](/READMEimages/valid_08.png) 
 
 ## Wind Turbine Detection and Localization
