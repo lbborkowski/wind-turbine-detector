@@ -12,7 +12,7 @@ The figure below illustrates a typical input image and a few resulting output im
 > *Original aerial images obtained from [National Agriculture Imagery Program (NAIP) database](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)*
 
 ## Training
-Training was performed on labeled 300 x 300 pixel images that were chipped from the original 5978 x 7648 pixel aerial images from the [National Agriculture Imagery Program (NAIP) database](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/). Each image contained at least one wind turbine which was labeled using [LabelImg](https://github.com/tzutalin/labelImg). A few of the labeled images are shown below. In total, 488 images were used for training. This training set included wind turbines of different capacity, manufacturer, and design.
+Training was performed on labeled 300 x 300 pixel images that were chipped from the original 5978 x 7648 pixel aerial images from the [National Agriculture Imagery Program (NAIP) database](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/). Each image contained at least one wind turbine which was labeled using [LabelImg](https://github.com/tzutalin/labelImg). A few of the labeled images are shown below. In total, 392 images were used for training and 80 for testing. This training set included wind turbines of different capacity, manufacturer, and design.
 ![](/READMEimages/train_01.png) ![](/READMEimages/train_02.png) ![](/READMEimages/train_03.png) ![](/READMEimages/train_04.png) ![](/READMEimages/train_05.png) ![](/READMEimages/train_06.png)
 
 ## Validation
@@ -24,6 +24,14 @@ A set of unlabeled validation images was kept separate from the train and test s
 Finally, the trained model is applied to large NAIP images covering a 4 mile by 4 mile area, approximately. To perform detection over this large area, a sliding window approach is used to analyze 300 x 300 pixel images over the the 5978 x 7648 pixel original image. Once this analysis is performed, a marker is plotted on the original NAIP image for each detected wind turbine. In addition, the latitude and longitude of each wind turbine is output for verification. Two NAIP images with all the detected wind turbines denoted with red markers are presented below. In addition, a table containing a subset of the latitude and longitude coordinates is shown below. The accuracy of the model is high however there are instances where non-wind turbine objects such as houses, barns, or roads are detected and classified as wind turbines.   
 
 ![](/READMEimages/NAIP_01.png) ![](/READMEimages/NAIP_02.png)
+
+*Locations of a sample set of detected wind turbines*
+
+| (latitude, longitude)  | (latitude, longitude) | (latitude, longitude) |
+| ------------- | ------------- | ------------- |
+|(42.62258, -94.81749)|(42.60538, -94.79803)|(42.60152, -94.79103)|
+|(41.28510, -94.78513)|(41.27862, -94.76478)|(41.28231, -94.74973)|
+|(42.60798, -94.79403)|(42.57709, -94.80176)|(42.60988, -94.81421)|
 
 Launch the notebook in Google Colab by clicking on this badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lbborkowski/wind-turbine-detector/blob/master/WindTurbineDetector.ipynb)
 > *After launching the notebook, verify that "Python2" and "GPU" are selected for the "Runtime type" and "Hardware accelerator" in Runtime -> Change runtime type.*
