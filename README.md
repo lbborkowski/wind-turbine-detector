@@ -16,7 +16,9 @@ A set of validation images was kept separate from the train and test sets in ord
 ![](/READMEimages/valid_01.png) ![](/READMEimages/valid_02.png) ![](/READMEimages/valid_03.png) ![](/READMEimages/valid_04.png) ![](/READMEimages/valid_05.png) ![](/READMEimages/valid_08.png) 
 
 ## Wind Turbine Detection and Localization
-Finally, the trained model is applied to large NAIP images covering a 4 mile by 4 mile area, approximately. To perform detection over this large area, a sliding window approach is used to analyze 300 x 300 pixel images over the the 5978 x 7648 pixel original image. Once this analysis is performed, a marker is plotted on the original NAIP image for each detected wind turbine. In addition, the latitude and longitude of each wind turbine is output for verification. Two NAIP images with all the detected wind turbines denoted with red markers are presented below. In addition, a table containing a subset of the latitude and longitude coordinates is shown below.   
+Finally, the trained model is applied to large NAIP images covering a 4 mile by 4 mile area, approximately. To perform detection over this large area, a sliding window approach is used to analyze 300 x 300 pixel images over the the 5978 x 7648 pixel original image. Once this analysis is performed, a marker is plotted on the original NAIP image for each detected wind turbine. In addition, the latitude and longitude of each wind turbine is output for verification. Two NAIP images with all the detected wind turbines denoted with red markers are presented below. In addition, a table containing a subset of the latitude and longitude coordinates is shown below.  
+
+![](/READMEimages/NAIP_01.png) ![](/READMEimages/NAIP_02.png)
 
 The figure below demonstrates a typical input image and the resulting output images with each wind turbine properly detected and classified.
 
