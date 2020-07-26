@@ -13,6 +13,7 @@ The figure below illustrates a typical input image and a few resulting output im
 
 ## Training
 Training was performed on labeled 300 x 300 pixel images that were chipped from the original 5978 x 7648 pixel aerial images from the [National Agriculture Imagery Program (NAIP) database](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/). Each image contained at least one wind turbine which was labeled using [LabelImg](https://github.com/tzutalin/labelImg). A few of the labeled images are shown below. In total, 392 images were used for training and 80 for testing. This training set included wind turbines of different capacity, manufacturer, and design.
+
 ![](/READMEimages/train_01.png) ![](/READMEimages/train_02.png) ![](/READMEimages/train_03.png) ![](/READMEimages/train_04.png) ![](/READMEimages/train_05.png) ![](/READMEimages/train_06.png)
 
 ## Validation
